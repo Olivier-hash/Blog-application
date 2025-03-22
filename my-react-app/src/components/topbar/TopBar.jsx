@@ -26,10 +26,21 @@ function TopBar() {
             </ul>
         </div>
         <div className='topRight'>
-            <img 
+            {
+               user ? (
+
+                <img 
                className='topImg' 
                src={img} alt="" 
             />
+               ) : (
+                <ul className='topList'>
+                    <li className='topListItem'><Link className='link' to="/login" >LOGIN</Link></li>
+                    <li className='topListItem'><Link className='link' to="/register" >REGISTER</Link></li> 
+                </ul>
+               )
+            }
+            
             <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
     </div>

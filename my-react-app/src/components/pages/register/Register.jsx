@@ -13,7 +13,9 @@ function Register() {
         <input type="password" className='registerInput' placeholder='Enter your password' />
         <button className="registerButton">Register</button>
      </form>
-     <button className="registerLoginButton">Login</button>
+     <button className="registerLoginButton">
+      <Link to="/login" >LOGIN</Link>
+      </button>
     </div>
   )
 }
