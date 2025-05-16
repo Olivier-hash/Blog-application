@@ -1,5 +1,5 @@
 import './Single.css'
-import Sidebar from '../../sidebar/Sidebar'
+import Sidebar from '../../sidebar/SideBar'
 import SinglePost from '../../singlePost/SinglePost'
 
 function Single() {

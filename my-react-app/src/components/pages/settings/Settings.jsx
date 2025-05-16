@@ -1,4 +1,4 @@
-import Sidebar from '../../sidebar/Sidebar'
+import Sidebar from '../../sidebar/SideBar'
 import './settings.css'
 import img from '../../../assets/team5.jpeg';
 
