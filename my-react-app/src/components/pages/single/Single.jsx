@@ -1,4 +1,4 @@
-import './Single.css'
+import './single.css'
 import Sidebar from '../../sidebar/SideBar'
 import SinglePost from '../../singlePost/SinglePost'
 
