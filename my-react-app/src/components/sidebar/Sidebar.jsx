@@ -1,6 +1,7 @@
 import './sidebar.css'
 import img from '../../assets/team3.jpeg'
-function Sidebar() {
+
+function SideBar() {
   return (
     <div className='sidebar'>
       <div className="sidebarItem">
@@ -34,4 +35,4 @@ function Sidebar() {
   )
 }
 
-export default Sidebar
+export default SideBar
