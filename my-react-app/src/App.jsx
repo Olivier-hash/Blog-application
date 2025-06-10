@@ -7,6 +7,7 @@ import Settings from './components/pages/settings/Settings'
 import Login from './components/pages/login/Login'
 import Register from './components/pages/register/Register'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
           <Route path="/settings" element={user ? <Settings/> : <Register/>} />
           <Route path="/login"    element={user ? <Home/> : <Login/>} />
           <Route path="/register" element={user ? <Home/> : <Register/>} />
-    </Routes> 
+    </Routes>
+    <Footer/> 
     </>
   )
 }
