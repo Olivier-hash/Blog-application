@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 function TopBar() {
     const user = false;
   return (
+    <div className='w-full overflow-hidden'>
     <div className='top'>
         <div className='topLeft'>
             <i className="topIcon fa-brands fa-square-facebook"></i>
@@ -44,6 +45,7 @@ function TopBar() {
             
             <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
+    </div>
     </div>
   )
 }
