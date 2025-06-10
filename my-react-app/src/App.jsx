@@ -13,7 +13,7 @@ function App() {
 
   const user = true;
   return (
-    <>
+    <div className='container w-full overflow-hidden'>
     <TopBar/>
     <Routes>
           <Route path="/" element={<Home/>} />
@@ -24,7 +24,7 @@ function App() {
           <Route path="/register" element={user ? <Home/> : <Register/>} />
     </Routes>
     <Footer/> 
-    </>
+    </div>
   )
 }
 
