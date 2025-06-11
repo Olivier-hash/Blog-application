@@ -1,12 +1,12 @@
 import './single.css'
-import Sidebar from '../../sidebar/TempSide'
-import SinglePost from '../../singlePost/SinglePost'
+import TempSide from '../../sidebar/TempSide'
+import OnePost from '../../singlePost/OnePost'
 
 function Single() {
   return (
     <div className='single'>
-        <SinglePost/>
-        <Sidebar/>
+        <OnePost/>
+        <TempSide/>
     </div>
   )
 }

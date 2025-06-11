@@ -1,6 +1,6 @@
-import './SinglePost.css'
+import './singlePost.css'
 import img from '../../assets/team4.jpeg'
-function SinglePost() {
+function OnePost() {
   return (
     <div className='singlePost'>
         <div className="singlePostwrapper">
@@ -32,4 +32,4 @@ function SinglePost() {
   )
 }
 
-export default SinglePost
+export default OnePost
