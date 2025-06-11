@@ -1,9 +1,9 @@
 import Header from '../../header/Header'
 import Posts from '../../posts/Posts'
-import SideBar from '../../sidebar/SideBar'
+import SideBar from '../../sidebar/TempSide'
 import './home.css'
 
-const Home = () => {
+const Temp = () => {
   return (
     <>
        <Header/>
@@ -16,4 +16,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Temp

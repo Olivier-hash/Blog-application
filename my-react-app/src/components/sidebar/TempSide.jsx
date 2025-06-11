@@ -1,7 +1,7 @@
 import './sidebar.css'
 import img from '../../assets/team3.jpeg'
 
-function SideBar() {
+function TempSide() {
   return (
     <div className='sidebar'>
       <div className="sidebarItem">
@@ -35,4 +35,4 @@ function SideBar() {
   )
 }
 
-export default SideBar
+export default TempSide
