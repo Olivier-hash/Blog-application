@@ -11,17 +11,16 @@ import Footer from './components/Footer'
 
 function App() {
 
-  const user = true;
   return (
     <div className='container w-full overflow-hidden'>
     <TopBar/>
     <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/post/:postId" element={<Single/>} />
-          <Route path="/write"    element={user ? <Write/> : <Register/>} />
-          <Route path="/settings" element={user ? <Settings/> : <Register/>} />
-          <Route path="/login"    element={user ? <Home/> : <Login/>} />
-          <Route path="/register" element={user ? <Home/> : <Register/>} />
+          <Route path="/write"    element={<Write/>} />
+          <Route path="/settings" element={<Settings/>} />
+          <Route path="/login"    element={<Login/>} />
+          <Route path="/register" element={<Register/>}/>
     </Routes>
     <Footer/> 
     </div>
@@ -29,3 +28,18 @@ function App() {
 }
 
 export default App
+
+
+
+
+
+
+
+          {
+          /*const user= true 
+          <Route path="/" element={<Home/>} />
+          <Route path="/post/:postId" element={<Single/>} />
+          <Route path="/write"    element={user ? <Write/> : <Register/>} />
+          <Route path="/settings" element={user ? <Settings/> : <Register/>} />
+          <Route path="/login"    element={user ? <Home/> : <Login/>} />
+          <Route path="/register" element={user ? <Home/> : <Register/>} /> */}
