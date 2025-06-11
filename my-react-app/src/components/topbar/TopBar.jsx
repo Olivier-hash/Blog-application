@@ -19,8 +19,8 @@ function TopBar() {
                     <Link className='link' to="/" >HOME</Link>
                 </li>
                 
-                <li className='topListItem'><Link className='link' to="/" >ABOUT</Link></li>
-                <li className='topListItem'><Link className='link' to="/" >CONTACT</Link></li>
+                <li className='topListItem'><Link className='link' to="/post" >ABOUT</Link></li>
+                <li className='topListItem'><Link className='link' to="/settings" >CONTACT</Link></li>
                 <li className='topListItem'><Link className='link' to="/write" >WRITE</Link></li>
             </ul>
         </div>

@@ -12,7 +12,7 @@ function Login() {
         <button className="loginButton">Login</button>
      </form>
      <button className="loginRegisterButton">
-      <Link to="/register" >Register</Link>
+      {/* <Link to="/register" >Register</Link> */}
      </button>
     </div>
   )

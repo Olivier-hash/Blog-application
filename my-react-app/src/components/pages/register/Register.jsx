@@ -14,7 +14,7 @@ function Register() {
         <button className="registerButton">Register</button>
      </form>
      <button className="registerLoginButton">
-      <Link to="/login" >LOGIN</Link>
+      {/* <Link to="/login" >LOGIN</Link> */}
       </button>
     </div>
   )
