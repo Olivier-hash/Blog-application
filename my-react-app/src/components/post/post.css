@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 
-
+/* 
 .post{
    width: 385;
    margin: 0px 25px 40px 25px;
@@ -54,4 +54,4 @@
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-}
+} */

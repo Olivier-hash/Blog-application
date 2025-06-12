@@ -16,14 +16,6 @@ function Post() {
         </div>
         <p className='postDesc'>
           This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
-          This is the place for the post description
         </p>
     </div>
     
