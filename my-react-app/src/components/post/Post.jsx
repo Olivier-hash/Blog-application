@@ -3,18 +3,18 @@ import './post.css'
 
 function Post() {
   return (
-    <div className='post'>
-        <img className='postImg' src={img} alt="" />
-        <div className="postInfo">
-            <div className="postCats">
-                <span className="postCat">Music</span>
-                <span className="postCat">Life</span>
+    <div className='container mx-auto pt-10 '>
+        <img className='' src={img} alt="" />
+        <div className="">
+            <div className="">
+                <span className="">Music</span>
+                <span className="">Life</span>
             </div>
-            <span className="postTitle">This is sampled text to be replaced</span>
+            <span className="">This is sampled text to be replaced</span>
             <hr />
-            <span className="postDate">1 hour ago</span>
+            <span className="">1 hour ago</span>
         </div>
-        <p className='postDesc'>
+        <p className=''>
           This is the place for the post description
         </p>
     </div>
