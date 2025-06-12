@@ -3,12 +3,12 @@ import './post.css'
 
 function Post() {
   return (
-    <div className='container mx-auto pt-10 '>
+    <div className='container mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden'>
         <img className='' src={img} alt="" />
-        <div className="">
-            <div className="">
-                <span className="">Music</span>
-                <span className="">Life</span>
+        <div className=" bottom-5  justify-center">
+            <div className="inline-block flex flex-col bg-white w-3/4 px-4 py-2 shadow-md">
+                <span className="text-xl font-semibold text-gray-800">Music</span>
+                <span className="text-xl font-semibold text-gray-800">Life</span>
             </div>
             <span className="">This is sampled text to be replaced</span>
             <hr />
