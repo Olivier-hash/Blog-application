@@ -7,23 +7,21 @@ import React from 'react'
 
 function Post() {
   return (
-    <div className='container w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden bg-[#D9D9D9]'>
-      <div className='md:w-1/3  rounded shadow-lg'>
-        
-        {/* Title */}
+    <div className='container w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden bg-[#D9D9D9] rounded shadow-lg'>
+       {/* Title */}
         <div className='pt-4 px-4 font-bold text-2xl'>
           <h2>Most Viewed Post</h2>
         </div>
-
-        {/* Image */}
-        <img
+      {/* Image */}
+      <img
           className='w-full h-auto object-cover rounded-t'
           src={img}
           alt="Most viewed post"
         />
-
+      <div className='md:w-1/3 bg-[#D9D9D9] rounded shadow-lg'>
+        
         {/* Buttons Section */}
-        <div className='flex gap-2 pt-2 px-4 bg-white pb-4'>
+        <div className='flex gap-2 justify-between pt-2 px-4 bg-white pb-4'>
           <button className='border px-4 py-2 rounded'>23,473</button>
           <button className='border px-4 py-2 rounded'>10,775</button>
         </div>
