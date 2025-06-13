@@ -7,8 +7,8 @@ import React from 'react'
 
 function Post() {
   return (
-    <div className='container w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden'>
-      <div className='md:w-1/3 bg-[#D9D9D9] rounded shadow-lg'>
+    <div className='container w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden bg-[#D9D9D9]'>
+      <div className='md:w-1/3  rounded shadow-lg'>
         
         {/* Title */}
         <div className='pt-4 px-4 font-bold text-2xl'>
