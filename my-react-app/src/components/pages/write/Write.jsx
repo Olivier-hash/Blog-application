@@ -3,7 +3,9 @@ import img from '../../../assets/side.jpeg'
 
 function Write() {
   return (
-    <div className='write'>
+    // writeImg
+    <div className='write w-full'>
+      <div className='flex flex-col md:ml-20'>
         <img className='writeImg' src={img} alt="" />
         <form className='writeForm'>
             <div className="writeFormGroup">
@@ -18,6 +20,7 @@ function Write() {
             </div>
             <button className="writeSubmit">Publish</button>
         </form>
+        </div>
     </div>
   )
 }
