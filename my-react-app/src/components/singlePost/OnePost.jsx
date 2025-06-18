@@ -3,9 +3,9 @@ import img from '../../assets/team4.jpeg'
 
 function OnePost() {
   return (
-    <div className='py-10 px-6'>
-      <div className="container mx-auto flex flex-col md:flex-row gap-8 items-start">
-        
+    <div className=' py-10 px-10 hidden lg:block'>
+      <div className="grid grid-col-1 gap-8 ">
+        <h1 className="text-2xl md:text-3xl font-bold mb-4">Team<span className='underline underline-offset-4 font-light'>Single Post Title</span></h1>
         {/* Image Section */}
         <img
           src={img}
@@ -14,31 +14,28 @@ function OnePost() {
         />
 
         {/* Textual Content Section */}
-        <div className="w-full md:w-1/2">
-          {/* Title + Edit Icons */}
-          <div className="relative">
-            <h1 className="text-2xl md:text-3xl font-bold mb-4">This is the Single Post Title</h1>
-            <div className="absolute top-0 right-0 flex gap-3 text-gray-600">
-              <i className="fa-solid fa-pen-to-square cursor-pointer hover:text-blue-600"></i>
-              <i className="fa-solid fa-trash-can cursor-pointer hover:text-red-600"></i>
-            </div>
-          </div>
+        <div className="w-full ">
 
           {/* Post Info */}
-          <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-4">
+          <div className="pb-6 text-sm text-gray-500 ">
             <span>Author: <b>Safari</b></span>
-            <span>1 hour ago</span>
+            <span className='px-20'>1 hour ago</span>
           </div>
 
           {/* Description */}
-          <p className="text-gray-700 leading-relaxed">
-            The following is the singlePost Description. <br />
-            The following is the singlePost Description. <br />
-            The following is the singlePost Description. <br />
-            The following is the singlePost Description. <br />
-            The following is the singlePost Description.
+          <p className="text-gray-700 leading-relaxed line-clamp-3 md:line-clamp-none">
+            The following is the singlePost Description and Adjustment . <br />
+            The following is the singlePost Description and Adjustment. <br />
+            The following is the singlePost Description and Adjustment. <br />
+            The following is the singlePost Description and Adjustment. <br />
+            The following is the singlePost Description and Adjustment.
           </p>
         </div>
+        {/* Title + Edit Icons */}
+            <div className="flex pl-96 gap-2 pt-0 text-gray-600 text-lg">
+              <i className="fa-solid fa-pen-to-square cursor-pointer hover:text-blue-600"></i>
+              <i className="fa-solid fa-trash-can cursor-pointer hover:text-red-600"></i>
+           </div>   
 
       </div>
     </div>

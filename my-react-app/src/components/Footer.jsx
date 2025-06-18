@@ -20,7 +20,7 @@ function Footer() {
                 </div>
                 {/* 3rd */}
                 <div>
-                  <h3>Subscription</h3>
+                  <h3 className='text-white'>Subscription</h3>
                 </div>
             </div>
     </div>
