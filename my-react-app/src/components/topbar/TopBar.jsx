@@ -17,8 +17,8 @@ function TopBar() {
         </div>
 
         {/* Center - Navigation */}
-        <div className="hidden md:flex justify-center flex-1 sm:flex-row">
-          <ul className="flex gap-6 text-sm font-medium text-gray-700">
+        <div className="flex flex-col sm:flex-row justify-center items-center  pt-1 md:px-20 lg:px-32 bg-trasparent">
+          <ul className="flex flex-col sm:flex-row gap-2 text-sm font-medium text-gray-700">
             <li><Link to="/" className="hover:text-blue-600">HOME</Link></li>
             <li><Link to="/post" className="hover:text-blue-600">ABOUT</Link></li>
             <li><Link to="/settings" className="hover:text-blue-600">CONTACT</Link></li>
