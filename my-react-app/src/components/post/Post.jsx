@@ -7,7 +7,7 @@ import React from 'react'
 
 function Post() {
   return (
-    <div className='w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden bg-[#D9D9D9] rounded shadow-lg mb-4'>
+    <div className='container w-full mx-auto pt-10 py-4 md:px-20 lg:px-32 overflow-hidden bg-[#D9D9D9] rounded shadow-lg pb-4'>
        {/* Title */}
         <div className='font-bold text-2xl'>
           <h2 className='pb-4'>Most <span className='underline underline-offset-4 decoration-1 font-light'>Viewed Post</span></h2>

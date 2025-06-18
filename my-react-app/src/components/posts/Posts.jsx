@@ -3,7 +3,7 @@ import './posts.css'
 
 function Posts() {
   return (
-    <div className=' md:flex-row'>
+    <div className='gap-4 grid grid-cols-1 '>
         <Post/>
         <Post/>
         <Post/>
