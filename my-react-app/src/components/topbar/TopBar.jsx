@@ -5,7 +5,7 @@ function TopBar() {
 
 
   return (
-    <div className="w-full sticky top-0 bg-white z-[999]">
+    <div className="w-full sticky top-0 bg-white z-[999] ">
       <div className="container mx-auto flex items-center justify-between h-14 px-4 md:px-8 font-sans">
         
         {/* Left - Social Icons */}
@@ -17,7 +17,7 @@ function TopBar() {
         </div>
 
         {/* Center - Navigation */}
-        <div className="hidden md:flex justify-center flex-1">
+        <div className="hidden md:flex justify-center flex-1 sm:flex-row">
           <ul className="flex gap-6 text-sm font-medium text-gray-700">
             <li><Link to="/" className="hover:text-blue-600">HOME</Link></li>
             <li><Link to="/post" className="hover:text-blue-600">ABOUT</Link></li>
