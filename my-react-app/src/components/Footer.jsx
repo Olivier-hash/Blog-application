@@ -39,7 +39,7 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-gray-400 pt-10 pb-6 px-4 md:px-20 lg:px-32">
       <div className="container mx-auto flex flex-col md:flex-row justify-between gap-8">
-        {/* Info Section */}
+        {/* Info Section set up*/}
         <div className="md:w-1/3">
           <h3 className="text-white text-lg font-bold mb-4">Info</h3>
           <p>We are ready to deliver quality services.</p>
