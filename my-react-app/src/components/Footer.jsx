@@ -45,7 +45,7 @@ function Footer() {
           <p>We are ready to deliver quality services.</p>
         </div>
 
-        {/* Links Section set up*/}
+        {/* Links Section for users*/}
         <div className="md:w-1/5">
           <h3 className="text-white text-lg font-bold mb-4">Links</h3>
           <ul className="flex flex-col gap-2">
