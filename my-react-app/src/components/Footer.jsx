@@ -61,7 +61,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Subscription Section set up*/}
+        {/* Subscription Section */}
         <div className="md:w-1/3">
           <h3 className="text-white text-lg font-bold mb-4">Subscribe</h3>
           <p className="mb-4">Get the latest updates directly in your inbox.</p>
