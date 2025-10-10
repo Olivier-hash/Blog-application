@@ -1,7 +1,7 @@
 // impo
 
 // ORIGINAL CODE BUT UNRESPONSIVE
-// own gerated cd
+// own gerated cid
 
 // function Footer() {
 //   return (
