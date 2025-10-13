@@ -1,6 +1,6 @@
 
 // ORIGINAL CODE BUT UNRESPONSIVE
-// own ger
+// own g
 
 // function Footer() {
 //   return (
