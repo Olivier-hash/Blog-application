@@ -1,6 +1,6 @@
 
 // ORIGINAL CODE BUT UNRESPONSIVE
-// own gerated 
+// own gerat
 
 // function Footer() {
 //   return (
