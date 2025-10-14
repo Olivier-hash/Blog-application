@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE BUT UNRESPON
+// ORIGINAL CODE BUT UNRES
 //
 
 // function Footer() {
