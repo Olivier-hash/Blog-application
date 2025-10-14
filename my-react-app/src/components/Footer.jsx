@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE BUT UNRESPONSIVE
+// ORIGINAL CODE BUT UNRESPONSIV
 //
 
 // function Footer() {
