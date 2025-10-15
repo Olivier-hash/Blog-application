@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE BUT 
+// ORIGINAL CODE B 
 //
 
 // function Footer() {
