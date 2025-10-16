@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE snip
+// ORIGINAL CODE sni
 //
 
 // function Footer() {
