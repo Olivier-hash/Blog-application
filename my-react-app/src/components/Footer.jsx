@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE sn
+// ORIGINAL CODE s
 //
 
 // function Footer() {
