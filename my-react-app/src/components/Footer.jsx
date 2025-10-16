@@ -1,6 +1,5 @@
 
 // ORIGINAL CODE 
-//
 
 // function Footer() {
 //   return (
