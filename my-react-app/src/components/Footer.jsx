@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE 
+// ORIGINAL CODE Being describe
 
 // function Footer() {
 //   return (
