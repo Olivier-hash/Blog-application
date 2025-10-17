@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE Being descri
+// ORIGINAL CODE Being desc
 
 // function Footer() {
 //   return (
