@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE Bei
+// ORIGINAL CODE Be
 
 // function Footer() {
 //   return (
