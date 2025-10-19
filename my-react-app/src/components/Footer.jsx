@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE Bein
+// ORIGINAL CODE Bei
 
 // function Footer() {
 //   return (
