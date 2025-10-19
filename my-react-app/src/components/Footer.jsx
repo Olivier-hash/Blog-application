@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE Being 
+// ORIGINAL CODE Bein
 
 // function Footer() {
 //   return (
