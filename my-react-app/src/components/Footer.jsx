@@ -19,7 +19,7 @@
 //                         <a href="" className='hover:text-white'>Contact us</a>
 //                     </ul>             
 //                 </div>
-//                 {/* 3rd */}
+//                 {/* 3rd x*/}
 //                 <div>
 //                   <h3 className='text-white'>Subscription</h3>
 //                 </div>
