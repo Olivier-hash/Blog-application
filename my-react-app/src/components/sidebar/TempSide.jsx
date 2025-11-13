@@ -5,7 +5,7 @@ function TempSide() {
   return (
     <div className='sidebar'>
       <div className="sidebarItem">
-         <span className='sidebarTitle'>ABOUT ME</span>
+         <span className='sidebarTitle'>ABOUT ME </span>
          <img className='img' src={img} alt="" />
          <p>Lorem ipsum dolor sit amet consectetur, <br /> adipisicing elit.
             Fuga aspernatur illum totam officiis quia <br /> dolorum qui mollitia sequi,
