@@ -31,7 +31,7 @@ function OnePost() {
             The following is the singlePost Description and Adjustment.
           </p>
         </div>
-        {/* Title + Edit Icons */}
+        {/* Title + Edit Icon's */}
             <div className="flex pl-96 gap-2 pt-0 text-gray-600 text-lg">
               <i className="fa-solid fa-pen-to-square cursor-pointer hover:text-blue-600"></i>
               <i className="fa-solid fa-trash-can cursor-pointer hover:text-red-600"></i>
