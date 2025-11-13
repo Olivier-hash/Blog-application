@@ -10,7 +10,7 @@
 //                     <h3 className='text-white text-lg font-bold mb-8'>Info</h3>
 //                     <p className='text-gray-400'>we are ready to deliver quality services</p>                
 //                 </div>
-//                 {/* 2nd set*/}
+//                 {/* 2nd set up*/}
 //                 <div className='w-full md:w-1/5' >
 //                     <h3 className='text-lg text-white font-bold mb-8'> Links</h3>
 //                     <ul className='flex flex-col gap-2 text-gray-400'>
