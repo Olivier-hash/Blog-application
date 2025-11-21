@@ -46,7 +46,7 @@ export default TopBar;
 
 
 
-//2nd EDITED CODE WITH TAILWIND AND CSS
+//2nd EDITE CODE WITH TAILWIND AND CSS
 
 // import './topbar.css'
 // import img from '../../assets/passport.jpg'
