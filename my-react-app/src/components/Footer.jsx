@@ -1,5 +1,5 @@
 
-// ORIGINAL CODE 
+// ORIGINAL CODE sample
 
 // function Footer() {
 //   return (
