@@ -77,7 +77,7 @@ function Footer() {
         </div>
       </div>
 
-      {/* Bottom Section pa*/}
+      {/* Bottom Section p*/}
       <div className="mt-8 border-t border-gray-700 pt-4 text-sm text-gray-500 text-center">
         © {new Date().getFullYear()} Your Company. All rights reserved.
       </div>
