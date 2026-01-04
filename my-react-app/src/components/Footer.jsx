@@ -21,7 +21,7 @@
 //                 </div>
 //                 {/* 3rd  */}
 //                 <div>
-//                   <h3 className='text-white'>Subscription. tes</h3>
+//                   <h3 className='text-white'>Subscription. te</h3>
 //                 </div>
 //             </div>
 //     </div>
