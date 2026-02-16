@@ -41,7 +41,7 @@ function OnePost() {
     </div>
   );
 }
-
+//data
 export default OnePost;
 
 
