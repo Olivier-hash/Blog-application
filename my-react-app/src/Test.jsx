@@ -6,7 +6,7 @@ function About() {
   return (
     <motion.div
     
-    // Animation properties (extra's 359-362)  examp
+    // Animation properties (extra's 359-362)  exam
     initial={{opacity:0, x:100}}
     transition={{duration: 1.5}}
     whileInView={{opacity:1, x:0}}
