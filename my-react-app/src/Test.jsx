@@ -6,7 +6,7 @@ function About() {
   return (
     <motion.div
     
-    // Animation properties (extra's 355-358)  ex
+    // Animation properties (extra's 359-362)  example
     initial={{opacity:0, x:100}}
     transition={{duration: 1.5}}
     whileInView={{opacity:1, x:0}}
