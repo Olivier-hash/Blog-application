@@ -6,7 +6,7 @@ function About() {
   return (
     <motion.div
     
-    // Animation properties (extra's 359-362)  edditba
+    // Animation properties (extra's 359-362)  edditb
     initial={{opacity:0, x:100}}
     transition={{duration: 1.5}}
     whileInView={{opacity:1, x:0}}
